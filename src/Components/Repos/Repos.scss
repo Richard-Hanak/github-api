@@ -1,0 +1,22 @@
+.repos {
+  width: 80%;
+  text-align: center;
+  font-size: 28px;
+  grid-area: repos;
+  li {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(73, 73, 73);
+    line-height: 46px;
+    a {
+      color: rgb(170, 159, 9);
+      text-decoration: none;
+    }
+  }
+}
+@media (max-width: 900px) {
+  .repos {
+    margin: 30px auto;
+  }
+}
